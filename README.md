@@ -1,2 +1,2 @@
 # Scriptinformatics
-Features of various scripts
+Features of various Eurasian scripts
