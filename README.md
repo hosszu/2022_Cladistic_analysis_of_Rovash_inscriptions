@@ -1,2 +1,2 @@
-# scriptinformatics
+# Scriptinformatics
 Features of various scripts
