@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite it as below."
+authors:
+- family-names: "Hosszú"
+  given-names: "Gábor"
+  orcid: "http://orcid.org/0000-0002-2856-9552"
+title: "Scriptinformatics. Features of various Eurasian scripts"
+version: 1.0.1
+date-released: 2022-09-29
+url: "https://github.com/hosszu/Scriptinformatics"
