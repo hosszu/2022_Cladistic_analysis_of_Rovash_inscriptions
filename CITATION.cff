@@ -9,7 +9,7 @@ message: >-
   If you use this dataset, please cite it using the
   data from this file.
 type: dataset
-repository: "https://github.com/hosszu/Scriptinformatics"
+repository-code: "https://github.com/hosszu/Scriptinformatics"
 authors:
   - given-names: Gábor
     family-names: Hosszú
