@@ -11,7 +11,6 @@ message: >-
 type: dataset
 authors:
   - given-names: Gábor
-    name-particle: Dr.
     family-names: Hosszú
     email: hosszu.gabor@vik.bme.hu
     affiliation: >-
