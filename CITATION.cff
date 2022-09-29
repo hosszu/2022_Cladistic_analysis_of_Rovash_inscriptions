@@ -1,10 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use these files, please cite it as below."
+title: >-
+  Scriptinformatics. Features of various Eurasian
+  scripts
+message: >-
+  If you use this dataset, please cite it using the
+  data from this file.
+type: dataset
 authors:
-- family-names: "Hosszú"
-  given-names: "Gábor"
-  orcid: "http://orcid.org/0000-0002-2856-9552"
-title: "Scriptinformatics. Features of various Eurasian scripts"
-version: 1.0.1
-date-released: 2022-09-29
-url: "https://github.com/hosszu/Scriptinformatics"
+  - given-names: Gábor
+    name-particle: Dr.
+    family-names: Hosszú
+    email: hosszu.gabor@vik.bme.hu
+    affiliation: >-
+      Budapest University of Technology and
+      Economics, Faculty of Electrical Engineering
+      and Informatics, Department of Electron Devices
+    orcid: 'https://orcid.org/0000-0002-2856-9552'
