@@ -3,13 +3,11 @@
 
 cff-version: 1.2.0
 title: >-
-  Scriptinformatics. Features of various Eurasian
-  scripts
+  Phylogenetic_analysis of various Eurasian Steppe scripts and inscriptions
 message: >-
-  If you use this dataset, please cite it using the
-  data from this file.
+  If you use this dataset, please cite it using the data from this file.
 type: dataset
-url: "https://github.com/hosszu/Scriptinformatics"
+url: "https://github.com/hosszu/2022_cladistic_analysis_of_Steppe_inscriptions"
 authors:
   - given-names: Gábor
     family-names: Hosszú
