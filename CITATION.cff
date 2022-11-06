@@ -3,11 +3,11 @@
 
 cff-version: 1.2.0
 title: >-
-  Phylogenetic_analysis of various Eurasian Steppe scripts and inscriptions
+  Cladistic analysis of Rovash scripts and inscriptions
 message: >-
   If you use this dataset, please cite it using the data from this file.
 type: dataset
-url: "https://github.com/hosszu/2022_cladistic_analysis_of_Steppe_inscriptions"
+url: "https://github.com/hosszu/2022_Cladistic_analysis_of_Rovash_inscriptions"
 authors:
   - given-names: Gábor
     family-names: Hosszú
