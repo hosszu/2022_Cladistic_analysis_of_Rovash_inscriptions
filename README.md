@@ -1,2 +1,1 @@
-# Scriptinformatics
-Features of various Eurasian scripts
+# Cladistic analysis of Eurasian Steppe scripts & inscriptions
