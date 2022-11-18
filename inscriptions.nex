@@ -1,0 +1,195 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=53;
+	taxlabels
+	Achik_Tash
+	Algyo
+	Almaly_II
+	Bagy
+	Bel
+	Bichiktu_Boom_III
+	Bichiktu_Boom_XV
+	Bodrog_Alsobu
+	Bonyhai
+	Constantinople
+	Csikszentmihaly
+	Farkaslaki
+	Homokmegy_Halom
+	Homorodkaracsonyfalva
+	Janoshida
+	Jitkov
+	Kajoni_Ancient
+	Kalbak_Tash_II
+	Kermen_Tolga
+	Khumara_6
+	Khumara_7
+	Khumara_8
+	Kievan_Letter
+	Kiskoros_Vagohid
+	Kiskundorozsma
+	Kornye
+	Koytubek
+	Kul_Tegin
+	Kuljabasy_I
+	Kuljabasy_II
+	Kurgak_I
+	Mayaki
+	Mayatskoe_1
+	Mayatskoe_10
+	Mayatskoe_2
+	Mayatskoe_5
+	Mendur_Sokkon_I
+	Nagyszentmiklos
+	Nikolsburg
+	Novocherkassk
+	Outgroup
+	Ozora_Totipuszta
+	Patakfalvi
+	Rudimenta
+	Stick_Calendar
+	Szamoskozy
+	Szarvas
+	Szekelyderzs
+	Tamgaly
+	Vargyas
+	Wolfenbuttel
+	Yabogan
+	Zhon_Aryk
+;
+end;
+
+begin trees;
+	tree tnt_1 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva)[&!hilight={2,0.0,#00ff00}],((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,(Csikszentmihaly,(Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))))))),(Wolfenbuttel,Bonyhai))))))[&!hilight={15,0.0,#00ff00}],(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)[&!hilight={2,0.0,#b1a0c7}]),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))[&!hilight={3,0.0,#ff9900}]))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))[&!hilight={11,0.0,#b1a0c7}]))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))[&!hilight={5,0.0,#99ccff}]))));
+	tree tnt_2 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,(Csikszentmihaly,((Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))),(Szamoskozy,Kajoni_Ancient)))),(Wolfenbuttel,Bonyhai)))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_3 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,(Csikszentmihaly,(Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))))))),(Wolfenbuttel,Bonyhai)))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,((Kievan_Letter,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos)))),(Mayaki,Mayatskoe_2))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_4 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,(Csikszentmihaly,(Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))))))),(Wolfenbuttel,Bonyhai)))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))),(Mayaki,Mayatskoe_2)))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_5 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,(Csikszentmihaly,(Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))))))),(Wolfenbuttel,Bonyhai)))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_6 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(Kievan_Letter,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,(Csikszentmihaly,(Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))))))),(Wolfenbuttel,Bonyhai)))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos)))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga)))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_7 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Csikszentmihaly,((Farkaslaki,((Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))),(Szamoskozy,Kajoni_Ancient))),(Wolfenbuttel,Bonyhai))))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_8 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(((Farkaslaki,((Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))),(Szamoskozy,Kajoni_Ancient))),(Wolfenbuttel,Bonyhai)),(Csikszentmihaly,Constantinople))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_9 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Csikszentmihaly,(Farkaslaki,((Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))),(Szamoskozy,Kajoni_Ancient)))),(Wolfenbuttel,Bonyhai)))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_10 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,(((Patakfalvi,(Nikolsburg,(Stick_Calendar,(Rudimenta,Bel)))),(Szamoskozy,Kajoni_Ancient)),(Csikszentmihaly,Wolfenbuttel)))))))),(Janoshida,Homokmegy_Halom))),((Ozora_Totipuszta,(Kievan_Letter,((Kornye,(Mayaki,Mayatskoe_2)),(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))),(Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_11 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_12 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_13 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Bodrog_Alsobu,(Bagy,(Szekelyderzs,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_14 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Mayatskoe_1,(Novocherkassk,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_15 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Khumara_8,(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_16 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(Kievan_Letter,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,Mayaki))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_17 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,((Farkaslaki,(Bonyhai,(Wolfenbuttel,(Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel))))))))),(Csikszentmihaly,Constantinople))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_18 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,((((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),(Ozora_Totipuszta,((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kornye,Kiskundorozsma))))),(Mayaki,Kievan_Letter)))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_19 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),(Homokmegy_Halom,(Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))))),((Ozora_Totipuszta,(Mayaki,Kievan_Letter)),((Kiskoros_Vagohid,((Janoshida,Algyo),(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kornye,Kiskundorozsma))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_20 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Vargyas,Homorodkaracsonyfalva),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Farkaslaki,(Bonyhai,((Szamoskozy,(Kajoni_Ancient,(Patakfalvi,(Stick_Calendar,(Nikolsburg,(Rudimenta,Bel)))))),(Wolfenbuttel,(Csikszentmihaly,Constantinople)))))))),(Janoshida,Homokmegy_Halom))),(Ozora_Totipuszta,((Kiskoros_Vagohid,(Algyo,(Mayatskoe_5,(Novocherkassk,(Mayatskoe_1,(Khumara_8,((Jitkov,((Szarvas,Nagyszentmiklos),(Mayatskoe_10,Kermen_Tolga))),(Achik_Tash,(Khumara_6,Khumara_7))))))))),(Mayatskoe_2,(Kiskundorozsma,(Kornye,(Mayaki,Kievan_Letter))))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_21 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Farkaslaki,((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,(Kajoni_Ancient,(Wolfenbuttel,Bonyhai))))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_22 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Constantinople,(Farkaslaki,((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,(Kajoni_Ancient,(Wolfenbuttel,Bonyhai))))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_23 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Farkaslaki,((Szamoskozy,(Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg)))))),(Kajoni_Ancient,(Wolfenbuttel,Bonyhai)))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_24 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,((Farkaslaki,((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,Kajoni_Ancient))),(Wolfenbuttel,Bonyhai)))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_25 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Farkaslaki,(((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,Kajoni_Ancient)),(Wolfenbuttel,Bonyhai))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_26 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Farkaslaki,((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,(Kajoni_Ancient,(Wolfenbuttel,Bonyhai))))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Mayatskoe_1,(Novocherkassk,(Kermen_Tolga,(Mayatskoe_10,(Khumara_8,(Achik_Tash,Khumara_6)))))))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_27 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Constantinople,(Farkaslaki,((Szamoskozy,(Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg)))))),(Kajoni_Ancient,(Wolfenbuttel,Bonyhai)))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_28 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Constantinople,((Farkaslaki,((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,Kajoni_Ancient))),(Wolfenbuttel,Bonyhai)))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_29 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Constantinople,(Farkaslaki,(((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,Kajoni_Ancient)),(Wolfenbuttel,Bonyhai))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,((Khumara_7,(Khumara_6,(Achik_Tash,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))),(Algyo,(Mayatskoe_5,(Mayatskoe_1,Novocherkassk))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_30 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Zhon_Aryk,(Almaly_II,(Kuljabasy_I,(Tamgaly,(Koytubek,(((Ozora_Totipuszta,((Vargyas,Homorodkaracsonyfalva),(Jitkov,(Szarvas,Nagyszentmiklos)))),(Mayaki,Kievan_Letter)),((Szekelyderzs,(Bodrog_Alsobu,(Bagy,(Constantinople,(Farkaslaki,((Patakfalvi,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,(Kajoni_Ancient,(Wolfenbuttel,Bonyhai))))))))),((Janoshida,Homokmegy_Halom),((Kiskoros_Vagohid,(Khumara_7,(Algyo,(Mayatskoe_5,(Mayatskoe_1,(Novocherkassk,(Kermen_Tolga,(Mayatskoe_10,(Khumara_8,(Achik_Tash,Khumara_6)))))))))),(Mayatskoe_2,(Kornye,Kiskundorozsma)))))))))))),((Bichiktu_Boom_III,(Kalbak_Tash_II,Kuljabasy_II)),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_31 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,((Vargyas,Homorodkaracsonyfalva),(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi)))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_32 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,((Vargyas,Homorodkaracsonyfalva),(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Szamoskozy,(Kajoni_Ancient,Patakfalvi)))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_33 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,((Vargyas,Homorodkaracsonyfalva),(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Patakfalvi,(Szamoskozy,Kajoni_Ancient)))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_34 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,((Vargyas,Homorodkaracsonyfalva),(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi)))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Novocherkassk,(Mayatskoe_1,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_35 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,(((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),((Homokmegy_Halom,((Vargyas,Homorodkaracsonyfalva),(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga)))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_36 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((Homokmegy_Halom,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Vargyas,Homorodkaracsonyfalva)),(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_37 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,(((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Vargyas,Homorodkaracsonyfalva)),(Homokmegy_Halom,(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_38 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,(((((Tamgaly,Kuljabasy_I),(Vargyas,Homorodkaracsonyfalva)),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,(Bodrog_Alsobu,(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_39 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,((Bodrog_Alsobu,(Vargyas,Homorodkaracsonyfalva)),(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_40 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,((Kurgak_I,(Almaly_II,Zhon_Aryk)),((Bichiktu_Boom_III,(Kalbak_Tash_II,(Kuljabasy_II,(Koytubek,((((Tamgaly,Kuljabasy_I),(Ozora_Totipuszta,(Kievan_Letter,(Mayaki,(Kornye,(Kiskundorozsma,(Szarvas,Nagyszentmiklos))))))),(Homokmegy_Halom,(Bodrog_Alsobu,((Vargyas,Homorodkaracsonyfalva),(Szekelyderzs,(Bagy,(Constantinople,(Bonyhai,(Farkaslaki,((Wolfenbuttel,(Csikszentmihaly,(Bel,(Rudimenta,(Stick_Calendar,Nikolsburg))))),(Kajoni_Ancient,(Szamoskozy,Patakfalvi)))))))))))),((Kiskoros_Vagohid,(Mayatskoe_5,(Janoshida,Mayatskoe_2))),(Algyo,(Khumara_7,(Mayatskoe_1,(Novocherkassk,(Jitkov,(Achik_Tash,(Khumara_6,(Khumara_8,(Mayatskoe_10,Kermen_Tolga))))))))))))))),(Bichiktu_Boom_XV,Mendur_Sokkon_I))))));
+	tree tnt_41 = [&U] (Outgroup,(Kul_Tegin,(Yabogan,(Almaly_II,Kalbak_Tash_II,Kuljabasy_II,Bichiktu_Boom_III,Kurgak_I,Zhon_Aryk,(Tamgaly,Koytubek,Kuljabasy_I,Bodrog_Alsobu,Szekelyderzs,Bagy,Ozora_Totipuszta,Janoshida,Kiskoros_Vagohid,Kornye,Kiskundorozsma,Jitkov,Achik_Tash,Mayaki,Mayatskoe_1,Mayatskoe_2,Mayatskoe_5,Mayatskoe_10,Khumara_6,Khumara_7,Khumara_8,Kermen_Tolga,Novocherkassk,Homokmegy_Halom,Algyo,Kievan_Letter,(Vargyas,Homorodkaracsonyfalva)[&!hilight={2,0.0,#00ff00}],(Csikszentmihaly,Constantinople,Szamoskozy,Wolfenbuttel,Farkaslaki,Bonyhai,Kajoni_Ancient,Patakfalvi,(Stick_Calendar,Nikolsburg,Rudimenta,Bel))[&!hilight={12,0.0,#00ff00}],(Szarvas,Nagyszentmiklos)[&!hilight={2,0.0,#ff9900}]),(Bichiktu_Boom_XV,Mendur_Sokkon_I)[&!hilight={2,0.0,#99ccff}]))));
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="POLAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=3.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+
