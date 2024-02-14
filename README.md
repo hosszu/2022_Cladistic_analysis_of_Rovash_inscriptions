@@ -1,4 +1,4 @@
-# Evolution of Steppe Scripts and inscriptions
+# Evolution of Steppe Scripts and Inscriptions
 
 PAST input files (NEX) for the correlation analysis of scripts and inscriptions
 
