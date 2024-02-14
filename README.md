@@ -1,6 +1,6 @@
 # Cladistic analysis of Rovash inscriptions
 
-PAST input files (DAT) for the correlation analysis of scripts and inscriptions
+PAST input files (NEX) for the correlation analysis of scripts and inscriptions
 
 TNT input files for analysing the set of scripts and inscriptions.
 
