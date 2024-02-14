@@ -1,4 +1,4 @@
-# Cladistic analysis of Rovash inscriptions
+# Evolution of Steppe Scripts and inscriptions
 
 PAST input files (NEX) for the correlation analysis of scripts and inscriptions
 
